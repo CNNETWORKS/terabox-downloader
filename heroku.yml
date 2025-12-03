@@ -1,0 +1,6 @@
+build:
+  # If you prefer to use Docker on Heroku, this uses the provided Dockerfile.
+  docker:
+    web: Dockerfile
+run:
+  web: python terabox.py
